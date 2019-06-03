@@ -8,3 +8,6 @@ A command line script that borrows Google's Translate service to easily translat
 
 ## Usage 
 - Run the ```translate.py``` script and follow the prompt
+
+## Example
+![](usage.gif)
