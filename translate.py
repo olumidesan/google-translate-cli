@@ -39,9 +39,9 @@ def get_input():
 
     text_to_translate = input(f'Enter the text that you want to translate: ').lower()
 
-    query_parameters = BASE_GOOGLE_TRANSLATE_URL + encode_query_parameters(source_language, destination_language, text_to_translate)
+    query_string = BASE_GOOGLE_TRANSLATE_URL + encode_query_parameters(source_language, destination_language, text_to_translate)
 
-    return query_parameters
+    return query_string
 
 
 def main():
