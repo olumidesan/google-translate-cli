@@ -55,16 +55,9 @@ def main():
         session.visit(url)
         translated_text = session.at_css(TRANSLATED_TEXT_SELECTOR).text()
 
-        print("\nDone!")
-        
-        time.sleep(1)
-
         return f"\nTranslation: {translated_text}\n"
     
     return "It looks like you have no internet connection. :( Kindly connect to the internet and try again.\n"
-
-
-
 
 
 if __name__ == "__main__":
